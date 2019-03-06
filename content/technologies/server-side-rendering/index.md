@@ -1,6 +1,7 @@
 ---
-title: Hello World
+title: Server-Side Rendering
 date: "2015-05-01T22:12:03.284Z"
+aka: ssr
 ---
 
 This is my first post on my new fake blog! How exciting!

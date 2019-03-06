@@ -19,6 +19,7 @@ exports.createPages = ({ graphql, actions }) => {
               }
               frontmatter {
                 title
+                aka
               }
             }
           }
@@ -42,6 +43,7 @@ exports.createPages = ({ graphql, actions }) => {
         component: blogPost,
         context: {
           slug: post.node.fields.slug,
+          aka: post.node.fields.aka,
           previous,
           next,
         },
