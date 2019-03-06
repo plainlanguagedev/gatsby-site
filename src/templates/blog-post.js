@@ -8,6 +8,7 @@ import { rhythm, scale } from "../utils/typography"
 class BlogPostTemplate extends React.Component {
   render() {
     const post = this.props.data.markdownRemark
+    const slug = this.props.pathContext.slug
     const siteTitle = this.props.data.site.siteMetadata.title
 
     return (
@@ -29,6 +30,19 @@ class BlogPostTemplate extends React.Component {
           {post.frontmatter.date}
         </p>
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
+
+        <div>
+          <h4>Want to help improve this article?</h4>
+          <p>
+            Make a pull request{" "}
+            <a
+              href={`https://github.com/plainlanguagedev/gatsby-site/blob/master/content/technologies${slug}index.md`}
+            >
+              here
+            </a>{" "}
+            to help contribute to the knowledge base!
+          </p>
+        </div>
 
         <ul
           style={{
