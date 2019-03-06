@@ -3,6 +3,7 @@ import { Link } from "gatsby"
 import { StaticQuery, graphql } from "gatsby"
 import { rhythm, scale } from "../utils/typography"
 import Image from "gatsby-image"
+import "./style.css"
 
 class Layout extends React.Component {
   render() {
