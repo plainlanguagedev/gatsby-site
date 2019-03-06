@@ -73,7 +73,14 @@ class Layout extends React.Component {
               >
                 <div>
                   <header style={{ textAlign: "center" }}>
-                    <Link to={`/`}>
+                    <Link
+                      style={{
+                        boxShadow: `none`,
+                        textDecoration: `none`,
+                        color: `inherit`,
+                      }}
+                      to={`/`}
+                    >
                       <Image
                         fixed={data.avatar.childImageSharp.fixed}
                         alt="PlainLanguage.dev"
