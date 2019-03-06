@@ -9,7 +9,7 @@ Consonantia, there live the blind texts. Separated they live in Bookmarksgrove
 right at the coast of the Semantics, a large language ocean. A small river named
 Duden flows by their place and supplies it with the necessary regelialia.
 
-Here I am going to make a reference to [server side rendering](./server-side-rendering).
+Here I am going to make a reference to [server side rendering](../server-side-rendering).
 
 ## On deer horse aboard tritely yikes and much
 
