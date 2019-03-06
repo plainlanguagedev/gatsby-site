@@ -73,19 +73,17 @@ class Layout extends React.Component {
               >
                 <div>
                   <header style={{ textAlign: "center" }}>
-                    <Image
-                      fixed={data.avatar.childImageSharp.fixed}
-                      alt="PlainLanguage.dev"
-                      style={{
-                        marginRight: rhythm(1 / 2),
-                        marginBottom: 0,
-                        minWidth: 50,
-                        borderRadius: `100%`,
-                      }}
-                      imgStyle={{
-                        borderRadius: `50%`,
-                      }}
-                    />
+                    <Link to={`/`}>
+                      <Image
+                        fixed={data.avatar.childImageSharp.fixed}
+                        alt="PlainLanguage.dev"
+                        style={{
+                          marginRight: rhythm(1 / 2),
+                          marginBottom: 0,
+                          minWidth: 50,
+                        }}
+                      />
+                    </Link>
                     {header}
                   </header>
                   <main>{children}</main>
