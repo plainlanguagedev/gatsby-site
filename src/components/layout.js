@@ -58,7 +58,7 @@ class Layout extends React.Component {
         query={bioQuery}
         render={data => {
           return (
-            <div style={{ height: "100vh" }}>
+            <div style={{ height: "100vh", borderTop: "10px solid #A3C964" }}>
               <div
                 style={{
                   marginLeft: `auto`,
